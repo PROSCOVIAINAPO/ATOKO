@@ -1,105 +1,91 @@
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>table of names and emails</title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="icon" href="favicon.jpg">
-<style>
-    p{
-        color:orangered;
-        background-color: yellow;
-    }
-    h1{
-        color: pink;
-        background-color: black;
-        padding: 20px;
-        border: 2px red dotted;
-        border-radius: 20px;
-    }
-    table,th,td,tr{
-        border: 5px solid brown;
-        color: yellow;
-        background-color: blue;
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+  </head>
+  <body>
+    <h1>Hello, world!</h1><div class="container-sm">100% wide until small breakpoint</div>
+    <div class="container-md">100% wide until medium breakpoint</div>
+    <div class="container-lg">100% wide until large breakpoint</div>
+    <div class="container-xl">100% wide until extra large breakpoint</div>
+    <div class="container-xxl">100% wide until extra extra large breakpoint</div>
 
-    }
-    h4{
-color: aqua;
-background-color: brown;
+  </body><table class="table">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">First</th>
+        <th scope="col">Last</th>
+        <th scope="col">Handle</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>Mark</td>
+        <td>Otto</td>
+        <td>@mdo</td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>Jacob</td>
+        <td>Thornton</td>
+        <td>@fat</td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td colspan="2">Larry the Bird</td>
+        <td>@twitter</td>
+      </tr><!-- On tables -->
+      <table class="table-primary">...</table>
+      <table class="table-secondary">...</table>
+      <table class="table-success">...</table>
+      <table class="table-danger">...</table>
+      <table class="table-warning">...</table>
+      <table class="table-info">...</table>
+      <table class="table-light">...</table>
+      <table class="table-dark">...</table>
+      
+      <!-- On rows -->
+      <tr class="table-primary">...</tr>
+      <tr class="table-secondary">...</tr>
+      <tr class="table-success">...</tr>
+      <tr class="table-danger">...</tr>
+      <tr class="table-warning">...</tr>
+      <tr class="table-info">...</tr>
+      <tr class="table-light">...</tr>
+      <tr class="table-dark">...</tr>
+      
+      <!-- On cells (`td` or `th`) -->
+      <tr>
+        <td class="table-primary">...</td>
+        <td class="table-secondary">...</td>
+        <td class="table-success">...</td>
+        <td class="table-danger">...</td>
+        <td class="table-warning">...</td>
+        <td class="table-info">...</td>
+        <td class="table-light">...</td>
+        <td class="table-dark">...</td>
+      <<div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+        <label class="form-check-label" for="flexCheckDefault">
+          Default checkbox
+        </label>
+    </tr>
 
-    }
-    h5{
-        color: blue;
-        border-style: dotted;
-        border-radius: 70px;
-        text-align: center;
-        border: radius 80px;
-    }
-    .values{
-    background-color: aquamarine;
-    color: brown;
-    border:20p ;
-
-}
-
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+        <label class="form-check-label" for="flexCheckChecked">
+          Checked checkbox
+        </label>
+    </div>
     
-</style>
-    </head>
-    <body>
-    <h1>this are my friends;</h1>
-    <p>below are the names and the emails for different people.</p><br>
-    <a href="prossy.html">prossy</a>
-    <a href="brian.html">brian</a>
-    <table>
-        <tr>
-            <th>Name</th>
-            <th>Email</th>
-        </tr>
-        <tr>
-            <td>cathy</td>
-            <td>cathygmail.com</td>
-        </tr>
-        <tr>
-            <td>joy</td>
-            <td>joygmail.com</td>
-        </tr>
-        <tr>
-            <td>gid</td>
-            <td>gidgmail.com</td>
-        </tr>
-        <tr>
-            <td>shey</td>
-            <td>sheygmail.com</td>
-        </tr>
-   
-   </table>
-   <form>
-    <label for="fname">first name;</label>
-    <input type="text" id="fname" name="fname"><br>
-    <label for="lname">last name;</label>
-    <input type="text" id="lname" name="lname"><br>
-    <label for="Email">Email</label>
-
-    
-   </form>
-   <div class="values">
-    <h4>these are our values that no one can <br> messup with at any time.</h4>
-    <ul>
-        <li>time mgt</li>
-        <li>selfcare</li>
-        <li>goodwill</li>
-        <li>integrity</li>
-    </ul>
-
-   </div>
-   <div class="footer">
-    <footer>
-        <h5><a>atokocatherine!gmail.com</a></h5>
-    </footer>
-
-   </div>
-   </body>
 
 
-
+    </tbody>
+  </table>
 
 </html>
