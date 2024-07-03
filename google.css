@@ -1,0 +1,14 @@
+.mother{
+    height: 20px;
+}
+.content{
+    color: greenyellow;
+    text-decoration: underline;
+    font-style: oblique;
+}
+.mother{
+    background-color: purple;
+    border: ;
+    height: 700px;
+    width: 450px;
+}
